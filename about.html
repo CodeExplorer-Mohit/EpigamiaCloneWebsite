@@ -1,0 +1,547 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- Bootstrap CSS -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+		<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;500&display=swap" rel="stylesheet">
+
+		<title>home</title>
+	</head>
+	<body>
+		
+
+		<!-- NAV BAR SECTON -->
+
+		<nav class="navbar navbar-expand-lg my-navbar-bg-css p-3 navbar-dark container-fluid" style="box-shadow: 0px 0px 10px #222;">
+  			<div class="container-fluid">
+
+    			<a class="navbar-brand logo-nav-bar-my-css" href="index.html">Epigamia</a>
+    			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      			<span class="navbar-toggler-icon" style="color: white!important;"></span>
+    			</button>
+
+			    
+    	
+    			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      				<div class="navbar-nav container-fluid justify-content-end">
+
+      					<li class="nav-item dropdown mx-3 my-dropdown-li">
+          					<a class="nav-link dropdown-toggle nav-bar-anchor-menu-mycss" href="allproducts.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #fff;">
+            				Shop
+          					</a>
+          					<ul class="dropdown-menu nav-my-dropdown-ul" aria-labelledby="navbarDropdown">
+            					<li class="d-flex px-5 my-2">
+            						<img src="images/yogurt_curd-shop-1.avif" style="width: 42px;"><a class="dropdown-item" href="allproducts.html" style="font-weight: bold;">yogurt & curd</a>
+            					</li>
+
+            					<li class="d-flex px-5 my-2">
+            						<img src="images/milkshakes-shop-1.avif" style="width: 42px;"><a class="dropdown-item" href="allproducts.html" style="font-weight: bold;">beverages</a>
+            					</li>
+
+            					<li class="d-flex px-5 my-2">
+            						<img src="images/plant_based-shop-1.avif" style="width: 42px;"><a class="dropdown-item" href="allproducts.html" style="font-weight: bold;">plant based</a>
+            					</li>
+
+            					<li class="d-flex px-5 my-2">
+            						<img src="images/offers-shop-1.avif" style="width: 42px;"><a class="dropdown-item" href="allproducts.html" style="font-weight: bold;">offers</a>
+            					</li>
+
+            					<li class="d-flex px-5 my-2">
+            						<img src="images/desserts-shop-1.avif" style="width: 42px;"><a class="dropdown-item" href="allproducts.html" style="font-weight: bold;">desserts</a>
+            					</li>
+
+            					<li class="d-flex px-5 my-2">
+            						<img src="images/cheese-shop-1.webp" style="width: 42px;"><a class="dropdown-item" href="allproducts.html" style="font-weight: bold;">cheese</a>
+            					</li>
+
+            					<li class="d-flex px-5 my-3 ms-4">
+            						<a class="dropdown-item text-danger" href="allproducts.html" style="font-weight: bold;">all products</a>
+            					</li>
+            					
+          					</ul>
+        				</li>
+        					<div class="d-flex flex-column align-items-start align-self-start justify-content-center my-nav-hover-effect-box mt-2" style="line-height: 5px;">
+        						<a class="nav-link  mx-3 nav-bar-anchor-menu-mycss " href="about.html">About us</a>
+        						<span class="nav-bar-bottem-hover-effect"></span>
+        					</div>
+
+        					<div class="d-flex flex-column align-items-start align-self-start justify-content-center my-nav-hover-effect-box mt-2" style="line-height: 5px;">
+        						<a class="nav-link  mx-3 nav-bar-anchor-menu-mycss " href="allproducts.html">Products</a>
+        						<span class="nav-bar-bottem-hover-effect"></span>
+        					</div>
+
+        					<div class="d-flex flex-column align-items-start align-self-start justify-content-center my-nav-hover-effect-box mt-2" style="line-height: 5px;">
+        						<a class="nav-link  mx-3 nav-bar-anchor-menu-mycss " href="contact.html">Contact us</a>
+        						<span class="nav-bar-bottem-hover-effect"></span>
+        					</div>
+
+        					<div class="d-flex flex-column align-items-center align-self-start justify-content-center my-nav-hover-effect-box" style="line-height: 5px;">
+        						<a class="nav-link" href="profile.html">
+        						<span class="nav-bar-bottem-hover-effect"></span>
+        					</div>
+
+        					<!-- profile -->
+        					<i class="fa-sharp fa-solid fa-user" style="color: #fff;"></i>
+        				</a>
+        				<a class="nav-link text-white" href="cart.html">
+        					<!-- cart -->
+        					<i class="fa-sharp fa-solid fa-cart-shopping" style="color: #fff;"></i>
+        				</a>
+        				<form class="d-flex from-container-my-css">	
+      						<input class="form-control me-2 text-dark" type="search" placeholder="Search" aria-label="Search">
+      						<button class="btn" type="submit"><i class="fa-solid fa-magnifying-glass" style="color: #212529;"></i></button>
+    					</form>
+      				</div>
+    			</div>
+
+  			</div>
+		</nav>
+		
+		<!-- NAV SECTION END -->
+
+<!-- -------------------------------------------------------- -->
+<!-- =======MAIN-CONTENT-SECTIONS======= -->
+
+	<!-- FIRST SECTION -->
+
+	<div class="container-fluid d-flex justify-content-center align-items-center about-section-first-main-container-root pt-5 pb-4">
+
+		<div class="d-flex flex-column justify-content-center align-items-center about-section-first-main-sub-container mt-5 mb-4 p-3">
+			
+			<!-- top-img -->
+			<div class="section-first-top-img-box">
+				<img src="images/about/section-1/top-1-cup.png" class="section-first-top-img-box-img">
+			</div>
+
+			<!-- head-pera -->
+			<div class="section-first-head-text-box">
+				<p class="section-first-head-text-box-text">
+					epigamia, who’s that?
+				</p>
+			</div>
+
+			<!-- text-info -->
+			<div class="section-first-text-info-box">
+				<p class="text-center section-first-text-info-box-text">
+					Hiii! We're just a little excited to make a new friend. So we're going to have a slight brag over the next few sentences.Hold on tight...
+				</p>
+			</div>
+
+		</div>
+	</div>
+
+	<!-- FIRST SECTION (END) -->
+
+
+	<!-- SECOND-SECTION -->
+
+	<div class="d-flex justify-content-center align-items-center about-section-second-main-container-root py-5">
+		
+		<div class="d-flex flex-wrap justify-content-center align-items-center about-section-second-main-sub-container my-4">
+			
+			<!-- left-text-info -->
+			<div class="d-flex flex-wrap flex-column justify-content-center align-content-start align-items-start fisrt-section-left-text-info-box mx-3">
+				
+					<!-- 1st-para -->
+					<div class="d-flex justify-content-center align-items-center left-text-info-box">
+						<p class="left-text-info-box-para">
+							Like every cliched story, this one starts with love too.
+							<br>
+							A love for food. One so deep that it made us think of ourselves as
+							<br>
+							Activists of Taste and Advocates of Health! Those titles mean that
+							<br>
+							we take food seriously. But not TOO seriously.
+						</p>
+					</div>
+
+					<!-- 2nd-para -->
+					<div class="d-flex justify-content-center align-items-center left-text-info-box">
+						<p class="left-text-info-box-para">					
+							Serious or not, we push boundaries to make food yummier and
+							<br>
+							ensure some, if not all, health boxes can be ticked!
+						</p>
+					</div>
+
+					<!-- 3rd-para -->
+					<div class="d-flex justify-content-center align-items-center left-text-info-box">
+						<p class="left-text-info-box-para">
+							For our very first creation, we added the best of Indian and Greek
+							<br>
+							cultures to a cup and let the magic loose.
+							<br>
+							And the rest? History.
+						</p>
+					</div>
+
+			</div>
+
+			<!-- right-img -->
+			<div class="d-flex justify-content-center align-items-center mx-2">
+				<img src="images/about/section-2/Blueberry-Showcase_1.webp" class="img-fluid">
+			</div>
+
+		</div>
+
+	</div>
+
+	<!-- SECOND-SECTION(end) --> 
+
+	<!-- THIRD-SECTION -->
+
+	<div class="about-section-third-main-container-root">
+			<div class="d-flex flex-wrap justify-content-center align-content-center about-section-third-main-sub-container">
+
+					<!--=====part-1======= -->
+					<div class="d-flex flex-column flex-wrap justify-content-center align-items-center three-child-containers-section-3 mx-2 px-1 my-3">
+							
+							<!-- img + title -->
+							<div class="d-flex justify-content-start align-items-center align-self-start section-third-img_title-box-container my-1">
+									<div class="section-third-img-box me-2">
+											<img src="images/about/section-3/icon-1.webp">
+									</div>
+
+									<div class="d-flex justify-content-center align-items-center section-third-title-box ms-2">
+											<p>what do we do?</p>
+									</div>
+							</div>
+
+							<!-- 2 para -->
+							<div class="d-flex flex-column justify-content-center align-items-center section-third-two-para-box-container my-1">
+
+									<!-- 1st para -->
+									<div class="section-third-first-para-box">
+											<p>We'll tell you what we DON’T do. Nothing with Epigamia’s name on it will have a trace of preservatives, artificial flavours or adulterated ingredients. (If we can even call them ingredients!)</p>
+									</div>
+
+									<!-- 2nd para -->
+									<div class="section-third-first-second-box">
+											<p>Instead, we create healthier (and yummier) snacking options made with fresh, locally-sourced ingredients that keep you and the communities we operate in healthy and happy.</p>
+									</div>
+							</div>
+					</div>
+
+
+					<!-- seprater -->
+					<!-- <div class="section-third-box-seprator-dashed"></div> -->
+					<!-- seprater -->
+
+
+					<!-- =======part-2====== -->
+					<div class="d-flex flex-column flex-wrap justify-content-center align-self-start align-items-center three-child-containers-section-3 mx-2 px-1 my-3">
+							
+							<!-- img + title -->
+							<div class="d-flex justify-content-start align-items-center align-self-start section-third-img_title-box-container my-1">
+									<div class="section-third-img-box me-2">
+											<img src="images/about/section-3/icon-2.webp">
+									</div>
+
+									<div class="d-flex justify-content-center align-items-center section-third-title-box ms-2">
+											<p>what makes us tick?</p>
+									</div>
+							</div>
+
+							<!-- 2 para -->
+							<div class="d-flex flex-column justify-content-center align-items-center section-third-two-para-box-container my-1">
+
+									<!-- 1st para -->
+									<div class="section-third-first-para-box">
+											<p>Innovation is our fuel. We love thinking outside the cup. Oops, we mean box. And we put that thinking to work at the Drums Food Innovation Centre.</p>
+									</div>
+
+									<!-- 2nd para -->
+									<div class="section-third-first-second-box">
+											<p>With plenty of creative elbow room and a passion for pushing boundaries, we experiment with unique flavours, create new products and bring innovation to life!</p>
+									</div>
+							</div>
+					</div>
+
+
+					<!-- seprater -->
+					<!-- <div class="section-third-box-seprator-dashed"></div> -->
+					<!-- seprater -->
+
+
+
+					<!-- =======part-3===== -->
+					<div class="d-flex flex-column flex-wrap justify-content-center align-self-start align-items-center three-child-containers-section-3 mx-2 px-1 my-3">
+							
+							<!-- img + title -->
+							<div class="d-flex justify-content-start align-items-center align-self-start section-third-img_title-box-container my-1">
+									<div class="section-third-img-box me-2">
+											<img src="images/about/section-3/icon-1.webp">
+									</div>
+
+									<div class="d-flex justify-content-center align-items-center section-third-title-box ms-2">
+											<p>why keep us in your fridge?</p>
+									</div>
+							</div>
+
+							<!-- 2 para -->
+							<div class="d-flex flex-column justify-content-center align-items-center section-third-two-para-box-container my-1">
+
+									<!-- 1st para -->
+									<div class="section-third-first-para-box">
+											<p>We'll be honest. We'll never pull that healthier- than-thou card on you. Snacking and cravings are a real part of our lives - and why shouldn't they be? So we found a way to make snacks healthier, with zero compromises on flavour and fun.</p>
+									</div>
+
+							</div>
+					</div>
+
+			</div>
+	</div>
+
+	<!-- THIRD-SECTION -->
+
+
+	<!-- FOURTH-SECTION -->
+
+	<div class="container-fluid section-fourth-container-root bg-info py-2" style="background-color: #ffcdb180!important;">
+
+		<div class="d-flex flex-column justify-content-center align-items-center section-fourth-sub-container my-5">
+
+			<!-- top-img + heading -->
+			<div class="d-flex flex-column justify-content-center align-items-center">
+				<div class="mb-3">
+					<img src="images/about/section-4/leadership.webp">
+				</div>
+				<div class="mt-3">
+					<h2>
+						<p class="section-4-heading-leadership">leadership</p>
+					</h2>
+				</div>
+			</div>	
+
+			<!-- description-text -->
+			<div class="my-2">	
+				<p class="section-4-text-description text-center">
+					Here’s the team that made Epigamia work culture all
+					<br>
+					about Greek cultures.
+				</p>
+			</div>
+
+			<!-- founder img + description- -->
+			<div class="d-flex flex-wrap justify-content-between align-items-start">
+
+				<!-- founder-1 -->
+				<div class="d-flex flex-column justify-content-center align-items-center mt-3 mb-3 mx-5">
+
+					<!-- founder-1 img -->
+					<div class="mb-2">
+						<img src="images/about/section-4/founder-1.webp">
+					</div>
+
+					<!-- founder-name -->
+					<div class="mt-2">
+						<p class="text-center section-4-founder-name-p">Rohan • CEO & Co-founder</p>
+					</div>
+
+					<!-- founder-fav-product -->
+					<div class="">
+						<p class="text-center section-4-founder-fav-product-name">
+							Favourite Product :
+							<br>
+							<strong>Mango and Natural Greek Yogurt</strong>
+						</p>
+					</div>
+
+					<div class="">
+						<!-- img-icon-1 -->
+						<img src="images/about/section-4/icon-1.webp" class="me-3">
+
+						<!-- img-icon-1 -->
+						<img src="images/about/section-4/icon-2.webp" class="ms-3">
+					</div>
+
+					<!-- extra-info -->
+					<div class="">
+						<p class="text-center section-4-extra-info">
+							He’s never been able to choose
+							<br>
+							between the two. And we can’t either!
+						</p>
+					</div>
+				</div>
+
+				<!-- founder-2 -->
+				<div class="d-flex flex-column justify-content-center align-items-center mt-3 mb-3 mx-5">
+
+					<!-- founder-1 img -->
+					<div class="mb-2">
+						<img src="images/about/section-4/founder-2.webp">
+					</div>
+
+					<!-- founder-name -->
+					<div class="mt-2">
+						<p class="text-center section-4-founder-name-p">Rahul • COO & Co-founder</p>
+					</div>
+
+					<!-- founder-fav-product -->
+					<div class="">
+						<p class="text-center section-4-founder-fav-product-name">
+							Favourite Product :
+							<br>
+							<strong>Natural Greek Yogurt</strong>
+						</p>
+					</div>
+
+					<div class="">
+						<!-- img-icon-1 -->
+						<img src="images/about/section-4/icon-2.webp" class="">
+					</div>
+
+					<!-- extra-info -->
+					<div class="">
+						<p class="text-center section-4-extra-info">
+							Fact Check : He’s always seen
+							<br>
+							with our berry flavours!
+						</p>
+					</div>
+				</div>
+
+				<!-- founder-3 -->
+				<div class="d-flex flex-column justify-content-center align-items-center mt-3 mb-3 mx-5">
+
+					<!-- founder-1 img -->
+					<div class="mb-2">
+						<img src="images/about/section-4/founder-3.webp">
+					</div>
+
+					<!-- founder-name -->
+					<div class="mt-2">
+						<p class="text-center section-4-founder-name-p">Uday • Director & Co-founder</p>
+					</div>
+
+					<!-- founder-fav-product -->
+					<div class="">
+						<p class="text-center section-4-founder-fav-product-name">
+							Favourite Product :
+							<br>
+							<strong>Mango Coconut Milk Yogurt</strong>
+						</p>
+					</div>
+
+					<div class="">
+						<!-- img-icon-1 -->
+						<img src="images/about/section-4/icon-4.webp" class="">
+					</div>
+
+					<!-- extra-info -->
+					<div class="">
+						<p class="text-center section-4-extra-info">
+							Don’t count on it staying
+							<br>
+							the same next week!
+						</p>
+					</div>
+				</div>
+
+			</div>
+			
+		</div>
+
+	</div>
+
+	<!-- FOURTH-SECTION(end) -->
+
+<!-- =======MAIN-CONTENT-SECTIONS======= -->
+<!-- -------------------------------------------------------- -->
+		<!-- FOOTER SECTION -->
+
+		<div class="container-fluid bg-dark p-3 d-flex flex-column justify-content-center align-items-center">
+
+			<div class="d-flex flex-row justify-content-center flex-wrap">
+				
+				<div class="p-5">
+					<p class="display-5 footer-logo-name-mycss"><a href="index.html" class="text-white" style="text-decoration: none;">Epigamia</a></p>
+				</div>
+
+				<!-- links -->
+				<div class="pt-5 ms-5 d-flex flex-column flex-wrap">
+					<p class="footer-head-pera-10">LINKS</p>
+					<div><a href="about.html" class="footer-pera-link disabled"><p class="footer-pera-links-anchor">about us</p></a></div>
+
+					<div><a href="profile.html" class="footer-pera-link disabled"><p class="footer-pera-links-anchor">profile</p></a></div>
+
+					<!-- <div><a href="#" class="footer-pera-link disabled"><p class="footer-pera-links-anchor">frequently asked questions</p></a></div> -->
+					<div><a href="contact.html" class="footer-pera-link disabled"><p class="footer-pera-links-anchor">contact us</p></a></div>
+
+					<!-- <div><a href="#" class="footer-pera-link"><p class="footer-pera-links-anchor">WhatsApp at +91 82916 20054</p></a></div> -->
+
+					<!-- <div><a href="#" class="footer-pera-link disabled"><p class="footer-pera-links-anchor">careers</p></a></div> -->
+
+					<!-- <div><a href="#" class="footer-pera-link disabled"><p class="footer-pera-links-anchor">distributor & bulk order queries</p></a></div> -->
+				</div>
+
+				<!-- legal-stuff -->
+				<div class="p-5 ms-5 d-flex flex-column flex-wrap">
+					<p class="footer-head-pera-10">LEGAL STUFF</p>
+					<div class="my-pera-div-css">
+						<a href="tandc.html" class="footer-pera-link disabled"><p class="footer-pera-links-anchor">terms & conditions</p></a>
+					</div>
+					<div class="my-pera-div-css">
+						<a href="privacy.html" class="footer-pera-link "><p class="footer-pera-links-anchor">privacy policy</p></a>
+					</div>
+				</div>
+
+				<!-- social media -->
+				<div class="pt-5 ms-5 d-flex justify-content-between flex-column flex-wrap">
+					<p class="footer-head-pera-10">SOCIAL</p>
+					<div class="p-2 my-pera-div-css">
+						<a href="https://www.instagram.com/epigamia.official/?hl=en" class="">
+							<i class="fa-brands fa-instagram footer-social-media-link" style="color: white; font-size: 32px;"></i>
+						</a>
+					</div>
+					<div class="p-2 my-pera-div-css">
+						<a href="https://twitter.com/epigamia?s=11">
+							<i class="fa-brands fa-twitter footer-social-media-link" style="color: white; font-size: 32px;"></i>
+						</a>
+					</div>
+					<div class="p-2 my-pera-div-css">
+						<a href="https://www.facebook.com/Epigamia/">
+							<i class="fa-brands fa-facebook footer-social-media-link" style="color: white; font-size: 32px;"></i>
+						</a>
+					</div>
+					<div class="p-2 my-pera-div-css">
+						<a href="https://www.youtube.com/channel/UCecqaK05x7LBy8OeTqd5cbQ">
+							<i class="fa-brands fa-youtube footer-social-media-link" style="color: white; font-size: 32px;"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="mt-3">
+				<p style="color: #777;">© 2022, epigamia.</p>
+			</div>
+
+		</div>
+
+		<!-- FOOTER SECTION END -->
+
+<!-- -------------------------------------------------------- -->
+		
+
+		<!-- Optional JavaScript; choose one of the two! -->
+
+		<!-- Option 1: Bootstrap Bundle with Popper -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+		<!-- Option 2: Separate Popper and Bootstrap JS -->
+		<!--
+		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+		-->
+	</body>
+</html>
